@@ -1,0 +1,11 @@
+{
+  "extensions.name.plg_robots": "Robots.txt",
+  "permissions.robots.manage": "Manage robots.txt",
+
+  "robots.admin.heading": "Robots.txt",
+  "robots.admin.enabled": "Robots.txt enabled",
+  "robots.admin.rules": "Content of robots.txt",
+  "robots.admin.save": "Save settings",
+  "robots.admin.preview": "Preview robots.txt",
+  "robots.admin.updated_at": "Last updated"
+}

@@ -1,0 +1,11 @@
+{
+  "extensions.name.plg_robots": "Robots.txt",
+  "permissions.robots.manage": "Správa robots.txt",
+
+  "robots.admin.heading": "Robots.txt",
+  "robots.admin.enabled": "Robots.txt aktivní",
+  "robots.admin.rules": "Obsah souboru robots.txt",
+  "robots.admin.save": "Uložit nastavení",
+  "robots.admin.preview": "Náhled robots.txt",
+  "robots.admin.updated_at": "Naposledy změněno"
+}
