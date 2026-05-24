@@ -5,7 +5,7 @@ from datetime import UTC, datetime
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from .models import RobotsSettings, _DEFAULT_RULES
+from .models import _DEFAULT_RULES, RobotsSettings
 
 
 async def get_or_create_settings(db: AsyncSession) -> RobotsSettings:

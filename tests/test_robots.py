@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import pytest
 from httpx import AsyncClient
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -9,7 +8,6 @@ from src.plugins.plg_robots.service import (
     get_robots_txt,
     save_settings,
 )
-
 
 # ---------------------------------------------------------------------------
 # service layer
