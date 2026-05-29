@@ -4,7 +4,7 @@
   "type": "plugin",
   "vendor": "klucon",
   "extension_id": "klucon/plg_robots",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "display_name": "Robots.txt",
   "display_name_key": "extensions.name.plg_robots",
   "description": "Spravuje /robots.txt. Obsah je editovatelný v administraci.",
@@ -21,7 +21,10 @@
     "core_min": "0.2.0",
     "core_max": null,
     "python": ">=3.12",
-    "database": ["mysql", "postgresql"]
+    "database": [
+      "mysql",
+      "postgresql"
+    ]
   },
   "package": {
     "entrypoint": "src.plugins.plg_robots",
@@ -37,7 +40,10 @@
   "i18n": {
     "domain": "plg_robots",
     "locales_path": "i18n",
-    "required_locales": ["cs_CZ", "en_GB"]
+    "required_locales": [
+      "cs_CZ",
+      "en_GB"
+    ]
   },
   "migrations": {
     "enabled": false,
@@ -54,7 +60,11 @@
   },
   "marketplace": {
     "category": "seo",
-    "tags": ["robots", "seo", "crawl"],
+    "tags": [
+      "robots",
+      "seo",
+      "crawl"
+    ],
     "featured": false
   },
   "changelog": "První vydání: správa robots.txt přes administraci."
